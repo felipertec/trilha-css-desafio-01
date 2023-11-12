@@ -113,6 +113,24 @@ p{
 }
 
 .module > span{
+    padding-right: 8px;
     color: #33A8DB;
 }
 
+#transform-world{
+    height: 600px;
+    background-image: url(../images/woman-code.png);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px;
+    border-bottom: 2px solid #33A8DB;
+}
+
+#transform-world p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    width: 248px;
+    text-shadow: 4px 2px #33A8DB;
+    font-weight: 900;
+}
