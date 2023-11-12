@@ -134,3 +134,43 @@ p{
     text-shadow: 4px 2px #33A8DB;
     font-weight: 900;
 }
+
+#professional-challenges{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    border-bottom: 2px solid #33A8DB;
+}
+
+#professional-challenges > h2{
+    width: 40rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#professional-challenges > p{
+    width: 48rem;
+    font-size: 18px;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2));
+}
+
+footer > p{
+    margin-bottom: 50px;
+}
+footer > p > a{
+    color: #33A8DB;
+    text-decoration: none;
+}
