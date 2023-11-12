@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body{
+    background-color: black;
+}
+
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url(../images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding-top: 60px;
+    border-bottom: 2px solid #33A8DB80;
+}
+
+.banner p{
+    text-align: center;
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-color: rgba(0, 0, 0, .2);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: auto;
+    padding: 28px;
+}
+
+h1{
+    font-weight: 900;
+    text-transform: uppercase;
+    color: transparent;
+    background-image: -webkit-linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+p{
+    font-size: 1.30rem;
+    padding: 16px 0 24px;
+}
+
+.banner button{
+    font-size: 1rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: transparent;
+    background-image: -webkit-linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    border: 1px solid #33A8DB;
+    padding: 20px;
+    width: 20rem;
+}
+
+.banner button:hover{
+    cursor: pointer;
+    text-shadow: 1px 1px #fff ;
+    box-shadow: 3px 1px 13px 6px rgba(255,255,255,.3);
+}
+
